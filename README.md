@@ -2,12 +2,12 @@
 ## Javascript task script
 ```
 //>>node app.js
-const fs	   = require('fs');
-const flower = fs.readFileSync('./flower.txt').toString().split('\n');
+const fs	 = require('fs');
+const flower	 = fs.readFileSync('./flower.txt').toString().split('\n');
 //set variables
-var num0 	   = 0;			      	//number of rows
+var num0 	 = 0;			      	//number of rows
 var array0	 = new Array();		//list flowers name that start with letter S
-var num1	   = 0;			      	//number of flowers that not start with letter S
+var num1	 = 0;			      	//number of flowers that not start with letter S
 var array1	 = new Array();		//list of flowers name start with first letter of my name 'Laith'
 var array2	 = new Array();		//list of all flowers those has name length equel 5
 for (var i = 0; i < flower.length; i++) {
