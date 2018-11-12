@@ -1,6 +1,6 @@
 # Laith Mohammed Saker
 ## Javascript task script
-'''
+```
 //>>node app.js
 const fs	   = require('fs');
 const flower = fs.readFileSync('./flower.txt').toString().split('\n');
@@ -32,7 +32,7 @@ console.log(
 "List of flowers name start with first letter of my name 'Laith' :\n[" + array1 + "]\n" + "\n" + 
 "List of all flowers those has name length equel 5 :\n[" + array2 + "]\n"
 );
-'''
+```
 ## Javascript task results
 ![js results](output.jpg)
 
